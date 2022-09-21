@@ -1,0 +1,15 @@
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.pdb
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.AssemblyReference.cache
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll

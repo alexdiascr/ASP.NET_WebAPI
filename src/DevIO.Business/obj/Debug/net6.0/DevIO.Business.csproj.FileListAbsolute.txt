@@ -1,0 +1,12 @@
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.deps.json
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.dll
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.pdb
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.csproj.AssemblyReference.cache
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfoInputs.cache
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfo.cs
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.csproj.CoreCompileInputs.cache
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.dll
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\refint\DevIO.Business.dll
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.pdb
+G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\ref\DevIO.Business.dll
