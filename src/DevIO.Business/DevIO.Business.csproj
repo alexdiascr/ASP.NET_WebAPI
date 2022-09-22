@@ -8,6 +8,11 @@
 
 	<ItemGroup>
 		<PackageReference Include="FluentValidation" Version="10.3.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
 	</ItemGroup>
 
 </Project>
