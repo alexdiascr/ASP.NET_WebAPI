@@ -1,10 +1,15 @@
-﻿using DevIO.Business.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DevIO.Business.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DevIO.Data.Mappings
 {
-    public class ProdutoMapping : IEntityTypeConfiguration<Produto>
+    internal class ProdutoMapping : IEntityTypeConfiguration<Produto>
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
@@ -24,5 +29,5 @@ namespace DevIO.Data.Mappings
 
             builder.ToTable("Produtos");
         }
-    }
+    }   
 }

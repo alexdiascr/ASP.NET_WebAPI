@@ -7,9 +7,13 @@ namespace DevIO.Business.Models.Validations
     {
         public FornecedorValidation()
         {
+            //regra para nome
             RuleFor(f => f.Nome)
+                //nome não pode está vázio(empty), se estiver, retornará msg que está entre parentese
                 .NotEmpty().WithMessage("O campo {PropertyName} precisa ser fornecido")
-                .Length(2, 100)
+                //Tamanho precisa está entre 2 e 100
+                .Length(2, 100) 
+                //caso desobedeça a regra assim, retorna msg abaixo
                 .WithMessage("O campo {PropertyName} precisa ter entre {MinLength} e {MaxLength} caracteres");
 
             When(f => f.TipoFornecedor == TipoFornecedor.PessoaFisica, () =>
