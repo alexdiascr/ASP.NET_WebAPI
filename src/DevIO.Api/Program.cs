@@ -2,6 +2,7 @@ using DevIO.Api.Configuration;
 using DevIO.Data.Context;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,13 @@ builder.Services.ResolveDependencies();
 //builder.Services.AddSwaggerGen();
 
 
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+
+});
+
+
 // Construção da APP
 // Realizando o buid das configurações que resultará na App
 // Essa linha precisa sempre ficar por ultimo na configuracao dos servicos
@@ -33,6 +41,7 @@ var app = builder.Build();
 //    app.UseSwagger();
 //    app.UseSwaggerUI();
 //}
+
 #region Configurando o request dos serviços no pipeline
 // Configure the HTTP request pipeline.
 // Daqui para baixo e conteudo que vinha dentro do metodo Configure() na antiga Startup.cs
