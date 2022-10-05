@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "L3JHf1knDdaPhJjsQNs/3ZIf4WaZxS2l0DQWELYKEhY=",
+  "Hash": "VV+CJDtF/fSw12ibVn9IJDfiY0VmNEsi5vESIpd4lU8=",
   "Source": "DevIO.Api",
   "BasePath": "_content/DevIO.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DevIO.Api\\wwwroot",
+      "Source": "DevIO.Api",
+      "ContentRoot": "G:\\Outros computadores\\Meu laptop\\Importantes\\Eng.SoftwareCarreira\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Api\\wwwroot\\",
+      "BasePath": "_content/DevIO.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "C:\\Users\\alexd\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.9\\staticwebassets\\V5\\css\\site.css",
