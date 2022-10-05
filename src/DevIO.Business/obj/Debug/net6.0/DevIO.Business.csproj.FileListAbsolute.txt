@@ -12,3 +12,17 @@ G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\D
 G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\ref\DevIO.Business.dll
 G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.runtimeconfig.json
 G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.genruntimeconfig.cache
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.deps.json
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.runtimeconfig.json
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.dll
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.pdb
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.csproj.AssemblyReference.cache
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfoInputs.cache
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfo.cs
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.csproj.CoreCompileInputs.cache
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.dll
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\refint\DevIO.Business.dll
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.pdb
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.genruntimeconfig.cache
+A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Business\obj\Debug\net6.0\ref\DevIO.Business.dll

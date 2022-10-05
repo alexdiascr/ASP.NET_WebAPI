@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zWf61J2SmkFTj65bFHcgPMCTOa4Z2zulbop3Xyffh/cYpcbkWgi92iZNLoTUyxx8G0D+uy5ocQbfS95HSvyWQA==",
+  "dgSpecHash": "U7unpkb8IdVnC2zhI+sW8MFdNV8zpV/k641IXSIO67+HafoNs1znTeNC/yI82OBaLdIJLV03jW2+61OogXCC6w==",
   "success": true,
-  "projectFilePath": "G:\\Outros computadores\\Meu laptop\\Importantes\\Eng.SoftwareCarreira\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexd\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\alexd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

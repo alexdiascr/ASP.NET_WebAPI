@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Outros computadores\\Meu laptop\\Importantes\\Eng.SoftwareCarreira\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectUniqueName": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
       "projectName": "DevIO.Data",
-      "projectPath": "G:\\Outros computadores\\Meu laptop\\Importantes\\Eng.SoftwareCarreira\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
       "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
-      "outputPath": "G:\\Outros computadores\\Meu laptop\\Importantes\\Eng.SoftwareCarreira\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\obj\\",
+      "outputPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2043,8 +2043,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "G:\\Outros computadores\\Meu laptop\\Importantes\\Eng.SoftwareCarreira\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
-              "projectPath": "G:\\Outros computadores\\Meu laptop\\Importantes\\Eng.SoftwareCarreira\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
+            "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
             }
           }
         }
