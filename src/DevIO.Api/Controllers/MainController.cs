@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace DevIO.Api.Controllers
 {
-    [ApiController]
+    [ApiController]    
     public abstract class MainController : ControllerBase
     {
         private readonly INotificador _notificador;

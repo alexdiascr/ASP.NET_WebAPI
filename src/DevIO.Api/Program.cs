@@ -13,7 +13,7 @@ builder.Services.AddDbContext<MeuDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
+//builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers();
 
@@ -56,30 +56,30 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthentication();
 
-app.UseStaticFiles();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    //endpoints.MapHealthChecks("/api/hc", new HealthCheckOptions()
+    //{
+    //    Predicate = _ => true,
+    //    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+    //});
+    //endpoints.MapHealthChecksUI(options =>
+    //{
+    //    options.UIPath = "/api/hc-ui";
+    //    options.ResourcesPath = "/api/hc-ui-resources";
 
-//app.UseEndpoints(endpoints =>
-//{
-//    endpoints.MapControllers();
-//    //endpoints.MapHealthChecks("/api/hc", new HealthCheckOptions()
-//    //{
-//    //    Predicate = _ => true,
-//    //    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-//    //});
-//    //endpoints.MapHealthChecksUI(options =>
-//    //{
-//    //    options.UIPath = "/api/hc-ui";
-//    //    options.ResourcesPath = "/api/hc-ui-resources";
+    //    options.UseRelativeApiPath = false;
+    //    options.UseRelativeResourcesPath = false;
+    //    options.UseRelativeWebhookPath = false;
+    //});
 
-//    //    options.UseRelativeApiPath = false;
-//    //    options.UseRelativeResourcesPath = false;
-//    //    options.UseRelativeWebhookPath = false;
-//    //});
-
-//});
+});
 
 app.Run();
