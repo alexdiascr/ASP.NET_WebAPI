@@ -9,13 +9,14 @@ namespace DevIO.Data.Repository
     {
         public FornecedorRepository(MeuDbContext context) : base(context) { }
 
-        public async Task<Fornecedor>? ObterFornecedorEndereco(Guid Id)
+        public async Task<Fornecedor> ObterFornecedorEndereco(Guid Id)
         {
-            return await Db?.Fornecedores.AsNoTracking().Include(c => c.Endereco)
+            return await Db?.Fornecedores.AsNoTracking()
+                .Include(c => c.Endereco)
                 .FirstOrDefaultAsync(c => c.Id == Id);
         }
 
-        public async Task<Fornecedor>? ObterFornecedorProdutosEndereco(Guid Id)
+        public async Task<Fornecedor> ObterFornecedorProdutosEndereco(Guid Id)
         {
             return await Db?.Fornecedores.AsNoTracking()
                 .Include(c => c.Produtos)

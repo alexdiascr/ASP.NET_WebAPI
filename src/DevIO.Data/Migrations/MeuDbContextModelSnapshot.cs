@@ -17,7 +17,7 @@ namespace DevIO.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.0")
+                .HasAnnotation("ProductVersion", "7.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -102,9 +102,9 @@ namespace DevIO.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetime");
 
-                    b.Property<string>("Descrico")
+                    b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("varchar(1000)");
 
@@ -120,7 +120,7 @@ namespace DevIO.Data.Migrations
                         .HasColumnType("varchar(200)");
 
                     b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal");
 
                     b.HasKey("Id");
 

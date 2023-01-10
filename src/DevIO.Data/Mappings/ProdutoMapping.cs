@@ -22,6 +22,18 @@ namespace DevIO.Data.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
+            builder.Property(p => p.Valor)
+                .IsRequired()
+                .HasColumnType("decimal");
+
+            builder.Property(p => p.DataCadastro)
+                .IsRequired()
+                .HasColumnType("datetime");
+
+            builder.Property(p => p.Ativo)
+                .IsRequired()
+                .HasColumnType("bit");
+
             builder.ToTable("Produtos"); //definindo o nome da tabela
         }
     }
