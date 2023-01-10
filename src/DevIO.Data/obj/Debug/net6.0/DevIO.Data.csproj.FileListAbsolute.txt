@@ -1,30 +1,17 @@
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.pdb
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.AssemblyReference.cache
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
-G:\Outros computadores\Meu laptop\Importantes\Eng.SoftwareCarreira\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.pdb
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.AssemblyReference.cache
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
-A:\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.AssemblyReference.cache
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.runtimeconfig.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.pdb
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.genruntimeconfig.cache
+A:\Programacao\Desenvolvedor.io\ASP.NET\MVC\ProjMVC\MinhaAppMvcCompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll

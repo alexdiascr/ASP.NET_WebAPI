@@ -1,19 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DevIO.Business.Models;
+﻿using DevIO.Business.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DevIO.Data.Mappings
 {
-    internal class ProdutoMapping : IEntityTypeConfiguration<Produto>
+    public class ProdutoMapping : IEntityTypeConfiguration<Produto>
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            builder.HasKey(p => p.Id);
+            builder.HasKey(x => x.Id);
 
             builder.Property(p => p.Nome)
                 .IsRequired()
@@ -27,7 +22,7 @@ namespace DevIO.Data.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
-            builder.ToTable("Produtos");
+            builder.ToTable("Produtos"); //definindo o nome da tabela
         }
-    }   
+    }
 }

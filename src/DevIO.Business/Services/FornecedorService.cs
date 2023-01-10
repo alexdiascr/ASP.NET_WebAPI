@@ -1,4 +1,4 @@
-﻿using DevIO.Business.Intefaces;
+﻿using DevIO.Business.Interfaces;
 using DevIO.Business.Models;
 using DevIO.Business.Models.Validations;
 
@@ -9,41 +9,40 @@ namespace DevIO.Business.Services
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IEnderecoRepository _enderecoRepository;
 
-        public FornecedorService(IFornecedorRepository fornecedorRepository, 
-                                 IEnderecoRepository enderecoRepository,
-                                 INotificador notificador) : base(notificador)
+        public FornecedorService(IFornecedorRepository fornecedorRepository,
+                                  IEnderecoRepository enderecoRepository,
+                                  INotificador notificador) : base(notificador)
         {
             _fornecedorRepository = fornecedorRepository;
             _enderecoRepository = enderecoRepository;
         }
 
-        public async Task<bool> Adicionar(Fornecedor fornecedor)
+
+        public async Task Adicionar(Fornecedor fornecedor)
         {
-            if (!ExecutarValidacao(new FornecedorValidation(), fornecedor) 
-                || !ExecutarValidacao(new EnderecoValidation(), fornecedor.Endereco)) return false;
+            if (!ExecutarValidacao(new FornecedorValidation(), fornecedor)
+                || !ExecutarValidacao(new EnderecoValidation(), fornecedor.Endereco)) return;
 
             if (_fornecedorRepository.Buscar(f => f.Documento == fornecedor.Documento).Result.Any())
             {
                 Notificar("Já existe um fornecedor com este documento infomado.");
-                return false;
+                return;
             }
 
             await _fornecedorRepository.Adicionar(fornecedor);
-            return true;
         }
 
-        public async Task<bool> Atualizar(Fornecedor fornecedor)
+        public async Task Atualizar(Fornecedor fornecedor)
         {
-            if (!ExecutarValidacao(new FornecedorValidation(), fornecedor)) return false;
+            if (!ExecutarValidacao(new FornecedorValidation(), fornecedor)) return;
 
             if (_fornecedorRepository.Buscar(f => f.Documento == fornecedor.Documento && f.Id != fornecedor.Id).Result.Any())
             {
                 Notificar("Já existe um fornecedor com este documento infomado.");
-                return false;
+                return;
             }
 
             await _fornecedorRepository.Atualizar(fornecedor);
-            return true;
         }
 
         public async Task AtualizarEndereco(Endereco endereco)
@@ -53,25 +52,22 @@ namespace DevIO.Business.Services
             await _enderecoRepository.Atualizar(endereco);
         }
 
-        public async Task<bool> Remover(Guid id)
+        public async Task Remover(Guid id)
         {
-            //por regra de negócio não se pode excluir um Fornecedor que possua produtos cadastrados
             if (_fornecedorRepository.ObterFornecedorProdutosEndereco(id).Result.Produtos.Any())
             {
                 Notificar("O fornecedor possui produtos cadastrados!");
-                return false;
+                return;
             }
 
             var endereco = await _enderecoRepository.ObterEnderecoPorFornecedor(id);
 
-            //primeiro se remove o endereço, pois as tabelas fornecedor e endereco são tabelas que dependem uma da outra
             if (endereco != null)
             {
                 await _enderecoRepository.Remover(endereco.Id);
             }
 
             await _fornecedorRepository.Remover(id);
-            return true;
         }
 
         public void Dispose()
@@ -80,4 +76,6 @@ namespace DevIO.Business.Services
             _enderecoRepository?.Dispose();
         }
     }
+
+
 }

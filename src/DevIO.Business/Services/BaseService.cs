@@ -1,4 +1,4 @@
-﻿using DevIO.Business.Intefaces;
+﻿using DevIO.Business.Interfaces;
 using DevIO.Business.Models;
 using DevIO.Business.Notificacoes;
 using FluentValidation;
@@ -32,7 +32,7 @@ namespace DevIO.Business.Services
         {
             var validator = validacao.Validate(entidade);
 
-            if(validator.IsValid) return true;
+            if (validator.IsValid) return true;
 
             Notificar(validator);
 

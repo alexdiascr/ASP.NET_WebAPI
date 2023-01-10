@@ -1,5 +1,10 @@
 ﻿using DevIO.Business.Models.Validations.Documentos;
 using FluentValidation;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace DevIO.Business.Models.Validations
 {
@@ -7,20 +12,16 @@ namespace DevIO.Business.Models.Validations
     {
         public FornecedorValidation()
         {
-            //regra para nome
             RuleFor(f => f.Nome)
-                //nome não pode está vázio(empty), se estiver, retornará msg que está entre parentese
                 .NotEmpty().WithMessage("O campo {PropertyName} precisa ser fornecido")
-                //Tamanho precisa está entre 2 e 100
-                .Length(2, 100) 
-                //caso desobedeça a regra assim, retorna msg abaixo
+                .Length(2, 100)
                 .WithMessage("O campo {PropertyName} precisa ter entre {MinLength} e {MaxLength} caracteres");
 
             When(f => f.TipoFornecedor == TipoFornecedor.PessoaFisica, () =>
             {
                 RuleFor(f => f.Documento.Length).Equal(CpfValidacao.TamanhoCpf)
                     .WithMessage("O campo Documento precisa ter {ComparisonValue} caracteres e foi fornecido {PropertyValue}.");
-                RuleFor(f=> CpfValidacao.Validar(f.Documento)).Equal(true)
+                RuleFor(f => CpfValidacao.Validar(f.Documento)).Equal(true)
                     .WithMessage("O documento fornecido é inválido.");
             });
 

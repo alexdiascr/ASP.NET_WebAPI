@@ -8,36 +8,38 @@ namespace DevIO.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {
-            builder.HasKey(p => p.Id);
+            builder.HasKey(x => x.Id);
 
-            builder.Property(c => c.Logradouro)
-                .IsRequired()
-                .HasColumnType("varchar(200)");
+            builder.Property(e => e.Logradouro)
+              .IsRequired()
+              .HasColumnType("varchar(200)");
 
-            builder.Property(c => c.Numero)
+            builder.Property(e => e.Numero)
                 .IsRequired()
                 .HasColumnType("varchar(50)");
 
-            builder.Property(c => c.Cep)
+            builder.Property(e => e.Cep)
                 .IsRequired()
                 .HasColumnType("varchar(8)");
 
-            builder.Property(c => c.Complemento)
+            builder.Property(e => e.Complemento)
+                .IsRequired()
                 .HasColumnType("varchar(250)");
 
-            builder.Property(c => c.Bairro)
+            builder.Property(e => e.Bairro)
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
-            builder.Property(c => c.Cidade)
+            builder.Property(e => e.Cidade)
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
-            builder.Property(c => c.Estado)
+            builder.Property(e => e.Estado)
                 .IsRequired()
                 .HasColumnType("varchar(50)");
 
-            builder.ToTable("Enderecos");
+
+            builder.ToTable("Enderecos"); //definindo o nome da tabela
         }
     }
 }

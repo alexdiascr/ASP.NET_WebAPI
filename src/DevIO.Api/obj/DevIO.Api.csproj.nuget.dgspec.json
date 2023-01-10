@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.API\\DevIO.API.csproj": {}
+    "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Api\\DevIO.Api.csproj": {}
   },
   "projects": {
-    "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.API\\DevIO.API.csproj": {
+    "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Api\\DevIO.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.API\\DevIO.API.csproj",
-        "projectName": "DevIO.API",
-        "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.API\\DevIO.API.csproj",
+        "projectUniqueName": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectName": "DevIO.Api",
+        "projectPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
         "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
-        "outputPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.API\\obj\\",
+        "outputPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
               },
-              "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
-                "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
+              "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+                "projectPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj"
               }
             }
           }
@@ -51,30 +52,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AspNetCore.HealthChecks.UI": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "AspNetCore.HealthChecks.UI.Client": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.Extensions.Diagnostics.HealthChecks": {
-              "target": "Package",
-              "version": "[6.0.9, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -86,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -98,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
-        "outputPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\obj\\",
+        "outputPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,6 +102,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -144,17 +123,19 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.3.6, )"
+              "version": "[11.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
-            },
-            "System.Diagnostics.Tools": {
-              "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -163,7 +144,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -172,18 +154,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
         "projectName": "DevIO.Data",
-        "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
         "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
-        "outputPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\obj\\",
+        "outputPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -198,14 +180,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "A:\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
               }
             }
           }
@@ -220,17 +203,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.3, )"
-            },
-            "System.Diagnostics.Tools": {
-              "target": "Package",
-              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -239,7 +224,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -248,7 +234,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
