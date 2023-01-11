@@ -25,5 +25,10 @@ namespace DevIO.Business.Notificacoes
         {
             return _notificacoes.Any();
         }
+
+        public void LimparNotificacoes() 
+        {
+            _notificacoes.Clear();
+        }
     }
 }

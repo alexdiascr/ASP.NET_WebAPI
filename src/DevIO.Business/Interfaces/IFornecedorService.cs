@@ -4,10 +4,10 @@ namespace DevIO.Business.Interfaces
 {
     public interface IFornecedorService : IDisposable
     {
-        Task Adicionar(Fornecedor fonecedor);
+        Task<bool> Adicionar(Fornecedor fonecedor);
 
-        Task Atualizar(Fornecedor fonecedor);
-        Task Remover(Guid id);
+        Task<bool> Atualizar(Fornecedor fonecedor);
+        Task<bool> Remover(Guid id);
         Task AtualizarEndereco(Endereco endereco);
     }
 }

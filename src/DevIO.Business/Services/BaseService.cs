@@ -28,6 +28,7 @@ namespace DevIO.Business.Services
             _notificador.Handle(new Notificacao(mensagem));
         }
 
+        //Dois parâmetro genéricos, Validação em si e entidade
         protected bool ExecutarValidacao<TV, TE>(TV validacao, TE entidade) where TV : AbstractValidator<TE> where TE : Entity
         {
             var validator = validacao.Validate(entidade);
