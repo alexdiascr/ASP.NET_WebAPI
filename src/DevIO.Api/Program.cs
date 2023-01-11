@@ -1,5 +1,6 @@
 using DevIO.Api.Configuration;
 using DevIO.Data.Context;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -17,6 +18,12 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.Configure<ApiBehaviorOptions>(optios =>
+{
+    optios.SuppressModelStateInvalidFilter = true;
+});
+
 builder.Services.AddSwaggerGen();
 
 builder.Services.ResolveDependencies();
