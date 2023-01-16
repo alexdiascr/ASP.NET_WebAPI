@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\src\\DevIO.Api\\wwwroot\\7f5f8fce-4172-41fd-a3f6-ca3c840f442b_livro.jpg",
+      "PackagePath": "staticwebassets\\7f5f8fce-4172-41fd-a3f6-ca3c840f442b_livro.jpg"
+    },
+    {
+      "Id": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\src\\DevIO.Api\\wwwroot\\c2582b05-7245-4812-9a2d-2eb2dd88c084_livrosql.jpg",
+      "PackagePath": "staticwebassets\\c2582b05-7245-4812-9a2d-2eb2dd88c084_livrosql.jpg"
+    },
+    {
+      "Id": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\src\\DevIO.Api\\wwwroot\\fe52fa69-abb0-4094-9d15-2beaa9b742fe_livrosql.jpg",
+      "PackagePath": "staticwebassets\\fe52fa69-abb0-4094-9d15-2beaa9b742fe_livrosql.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DevIO.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DevIO.Api.props",
+      "PackagePath": "build\\DevIO.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DevIO.Api.props",
+      "PackagePath": "buildMultiTargeting\\DevIO.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DevIO.Api.props",
+      "PackagePath": "buildTransitive\\DevIO.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

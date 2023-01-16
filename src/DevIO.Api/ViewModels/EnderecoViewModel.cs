@@ -24,7 +24,7 @@ namespace DevIO.Api.ViewModels
 
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {1} caracteres", MinimumLength = 8)]
+        [StringLength(8, ErrorMessage = "O campo {0} precisa ter {1} caracteres", MinimumLength = 8)]
         public string Cep { get; set; }
         
 
