@@ -373,3 +373,4 @@ A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\obj\Debug\n
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\obj\Debug\net6.0\ref\DevIO.Api.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

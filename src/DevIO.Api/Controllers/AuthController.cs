@@ -19,13 +19,16 @@ namespace DevIO.Api.Controllers
     {
         private readonly SignInManager<IdentityUser> _signInManager; //trabalho fazer o saym do usuário
         private readonly UserManager<IdentityUser> _userManager; //responsável por criar o usuário
+        private readonly AppSettings _appSettings;
 
         public AuthController(INotificador notificador, 
                                 SignInManager<IdentityUser> signInManager, 
-                                UserManager<IdentityUser> userManager = null) : base(notificador)
+                                UserManager<IdentityUser> userManager,
+                                IOptions<AppSettings> appSettings) : base(notificador)
         {
             _signInManager = signInManager;
             _userManager = userManager;
+            _appSettings = appSettings.Value;
         }
 
         [HttpPost("nova-conta")]
@@ -48,7 +51,7 @@ namespace DevIO.Api.Controllers
             {
                 //fazendo loggin do usuário
                 await _signInManager.SignInAsync(user, false);
-                return CustomResponse(registerUser);
+                return CustomResponse(GerarJwt());
             }
             foreach (var error in result.Errors)
             {
@@ -67,7 +70,7 @@ namespace DevIO.Api.Controllers
 
             if (result.Succeeded)
             {
-                return CustomResponse(loginUser);
+                return CustomResponse(GerarJwt());
             }
             if (result.IsLockedOut)
             {
@@ -77,6 +80,23 @@ namespace DevIO.Api.Controllers
 
             NotificarErro("Usuário ou Senha incorretos");
             return CustomResponse(loginUser);
+        }
+
+        private async Task<string> GerarJwt()
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_appSettings.Secrect);
+            var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
+            {
+                Issuer = _appSettings.Emissor,
+                Audience = _appSettings.ValidoEm,
+                Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            });
+
+
+            var encodedToken = tokenHandler.WriteToken(token);
+            return encodedToken;
         }
     }
 }

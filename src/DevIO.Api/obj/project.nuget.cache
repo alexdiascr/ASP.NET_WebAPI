@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T0ohe54WPIjbVp3oTS/lnlNn6moosHlpXOmh6SW3IW0EZ+CMMzvJQpSeWrudfODDb2svoe3E/MaEl104/0oOyg==",
+  "dgSpecHash": "eaqsG9D2Q2P9HqnvqdzoZYzZdSdOUoJModCibQtmCoMSwx3zr8807hwTsMSFoYK8X2hmDbpp69SP3zOf8WQF0A==",
   "success": true,
   "projectFilePath": "A:\\Programacao\\Desenvolvedor.io\\ASP.NET\\WebAPI\\ProjAPI\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\alexd\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\alexd\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\alexd\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\alexd\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.13\\microsoft.aspnetcore.authentication.jwtbearer.6.0.13.nupkg.sha512",
     "C:\\Users\\alexd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.13\\microsoft.aspnetcore.cryptography.internal.6.0.13.nupkg.sha512",
     "C:\\Users\\alexd\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.13\\microsoft.aspnetcore.cryptography.keyderivation.6.0.13.nupkg.sha512",
     "C:\\Users\\alexd\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.13\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.13.nupkg.sha512",
