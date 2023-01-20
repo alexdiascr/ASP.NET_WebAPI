@@ -24,6 +24,7 @@ namespace DevIO.Api.Configuration
                 .AddErrorDescriber<IdentityMensagensPortugues>()
                 .AddDefaultTokenProviders();
 
+
             // JWT
 
             var appSettingsSection = configuration.GetSection("AppSettings");
@@ -56,6 +57,7 @@ namespace DevIO.Api.Configuration
                     ValidIssuer = appSettings.Emissor
                 };
             });
+
 
             return services;
         }     

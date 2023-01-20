@@ -43,6 +43,7 @@ namespace DevIO.Api.Controllers
             return produtoViewModel;
         }
 
+
         [HttpPost]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
         {
@@ -60,6 +61,7 @@ namespace DevIO.Api.Controllers
 
             return CustomResponse(produtoViewModel);
         }
+
 
         [HttpPut("{id:guid}")]
         //ProdutoViewModel via base 64, do contrário, fazer forma alternativa

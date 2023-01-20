@@ -374,3 +374,11 @@ A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\obj\Debug\n
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ProjAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
