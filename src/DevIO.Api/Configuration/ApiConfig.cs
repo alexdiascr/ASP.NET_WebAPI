@@ -8,6 +8,19 @@ namespace DevIO.Api.Configuration
         {
             services.AddControllers();
 
+            services.AddApiVersioning(options =>
+            {
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.DefaultApiVersion = new ApiVersion(1, 0);
+                options.ReportApiVersions = true;
+            });
+
+            services.AddVersionedApiExplorer(options =>
+            {
+                options.GroupNameFormat = "'v'VVV";
+                options.SubstituteApiVersionInUrl = true;
+            });
+
             services.Configure<ApiBehaviorOptions>(optios =>
             {
                 optios.SuppressModelStateInvalidFilter = true;
@@ -21,6 +34,15 @@ namespace DevIO.Api.Configuration
                                     .AllowAnyOrigin()
                                     .AllowAnyMethod()
                                     .AllowAnyHeader());
+
+                options.AddPolicy("Production",
+                                builder =>
+                                    builder
+                                    .WithMethods("GET", "POST")
+                                    .WithOrigins("http://desenvolvedor.io")
+                                    .SetIsOriginAllowedToAllowWildcardSubdomains()
+                                    //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
+                                    .AllowAnyHeader());
             });
 
             return services;
@@ -31,18 +53,21 @@ namespace DevIO.Api.Configuration
 
             if (env.IsDevelopment())
             {
-                //app.UseCors("Development");
+                app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-               // app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                app.UseCors("Production");// Usar apenas nas demos => Configuração Ideal: Production
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
-            app.UseCors("Development");
-
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             return app;
         }
