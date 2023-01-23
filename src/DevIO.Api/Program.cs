@@ -1,6 +1,7 @@
 using DevIO.Api.Configuration;
 using DevIO.Api.Extensions;
 using DevIO.Data.Context;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -22,34 +23,18 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddApiConfig();
 
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My Api", Version = "v1" });
-});
+builder.Services.AddSwaggerConfig();
 
 builder.Services.ResolveDependencies();
 
 
 var app = builder.Build();
+var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
 app.UseApiConfig(app.Environment);
-// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
 
+app.UseSwaggerConfig(apiVersionDescriptionProvider);
 
-//app.UseHsts();
-
-app.UseMiddleware<ExceptionMiddleware>();
-
-app.UseAuthentication();
-app.UseAuthorization();
-
-//está ligado ao AddIdentityConfig
-app.UseStaticFiles();
 app.MapControllers();
 
 app.Run();

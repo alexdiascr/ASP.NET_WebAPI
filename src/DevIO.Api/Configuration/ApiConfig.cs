@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DevIO.Api.Extensions;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DevIO.Api.Configuration
 {
@@ -62,12 +63,15 @@ namespace DevIO.Api.Configuration
                 app.UseHsts();
             }
 
+            app.UseMiddleware<ExceptionMiddleware>();
+
             app.UseHttpsRedirection();
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-            });
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.UseStaticFiles();
+     
 
             return app;
         }
