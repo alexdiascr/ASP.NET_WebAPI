@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DevIO.Api.Extensions;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DevIO.Api.Configuration
 {
     public static class ApiConfig
     {
-        public static IServiceCollection AddApiConfig(this IServiceCollection services)
+        public static void AddApiConfig(this IServiceCollection services)
         {
             services.AddControllers();
 
@@ -44,11 +45,9 @@ namespace DevIO.Api.Configuration
                                     //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
                                     .AllowAnyHeader());
             });
-
-            return services;
         }
 
-        public static IApplicationBuilder UseApiConfig(this IApplicationBuilder app, IWebHostEnvironment env)
+        public static void UseApiConfig(this IApplicationBuilder app, IWebHostEnvironment env)
         {
 
             if (env.IsDevelopment())
@@ -62,14 +61,15 @@ namespace DevIO.Api.Configuration
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-            });
+            app.UseMiddleware<ExceptionMiddleware>();
 
-            return app;
+            app.UseHttpsRedirection();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+            app.UseStaticFiles();
+    
         }
     }
 }
