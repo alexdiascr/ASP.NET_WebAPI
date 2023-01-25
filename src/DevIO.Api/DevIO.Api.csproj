@@ -37,7 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="V2\Controllers\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
