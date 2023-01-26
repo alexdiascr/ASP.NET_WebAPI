@@ -69,7 +69,9 @@ namespace DevIO.Api.Configuration
             app.UseAuthorization();
 
             app.UseStaticFiles();
-    
+
+
+            app.UseLogginConfiguration();
         }
     }
 }

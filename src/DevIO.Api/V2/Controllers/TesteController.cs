@@ -1,5 +1,6 @@
 ﻿using DevIO.Api.Controllers;
 using DevIO.Business.Interfaces;
+using Elmah.Io.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevIO.Api.V2.Controllers
@@ -12,7 +13,7 @@ namespace DevIO.Api.V2.Controllers
 
         public TesteController(INotificador notificador, 
                                IUser appUser, 
-                               ILogger logger) : base(notificador, appUser)
+                               ILogger<TesteController> logger) : base(notificador, appUser)
         {
             _logger = logger;
         }
@@ -20,6 +21,18 @@ namespace DevIO.Api.V2.Controllers
         [HttpGet]
         public string Valor()
         {
+            throw new Exception("Erro");
+
+            //try
+            //{
+            //    var i = 0;
+            //    var result = 42 / i;
+            //}
+            //catch (DivideByZeroException e)
+            //{
+            //    e.Ship(HttpContext);
+            //}
+
             #region Utilizado para ambiente desenvolvimento
             _logger.LogTrace("Log de Trace");
             _logger.LogDebug("Log de Debug");

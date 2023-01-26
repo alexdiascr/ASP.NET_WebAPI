@@ -563,3 +563,6 @@ A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.pdb
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.genruntimeconfig.cache
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Debug\net6.0\ref\DevIO.Api.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Elmah.Io.AspNetCore.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Elmah.Io.Client.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Elmah.Io.Extensions.Logging.dll
