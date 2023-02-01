@@ -1,10 +1,10 @@
-﻿using Elmah.Io.Extensions.Logging;
+﻿using DevIO.Api.Extensions;
 
 namespace DevIO.Api.Configuration
 {
     public static class LoggerConfig
     {
-        public static IServiceCollection AddLogginConfigration(this IServiceCollection services)
+        public static IServiceCollection AddLogginConfigration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddElmahIo(o =>
             {
@@ -12,19 +12,19 @@ namespace DevIO.Api.Configuration
                 o.LogId = new Guid("812568fe-1183-4ba3-8c66-8258fab30eb3");
             });
 
+            services.AddHealthChecks()
+                .AddElmahIoPublisher(o =>
+                {
+                    o.ApiKey = "7cbb4a934b2f4b998dd74d78e4b24960";
+                    o.LogId = new Guid("812568fe-1183-4ba3-8c66-8258fab30eb3");
+                    o.HeartbeatId = "API Fornecedores";
 
-            ////Adicionando os logs que são injetados manualmente
-            //services.AddLogging(builder =>
-            //{
-            //    builder.AddElmahIo(o =>
-            //    {
-            //        o.ApiKey = "7cbb4a934b2f4b998dd74d78e4b24960";
-            //        o.LogId = new Guid("812568fe-1183-4ba3-8c66-8258fab30eb3");
-            //    });
+                })
+                .AddCheck("Produtos", new SqlServerHealthCheck(configuration.GetConnectionString("DefaultConnection")))
+                .AddSqlServer(configuration.GetConnectionString("DefaultConnection"), name: "BancoSQL");
 
-            //    //LogLevel.Warning - Somente logs importante
-            //    builder.AddFilter<ElmahIoLoggerProvider>(null, LogLevel.Warning);
-            //});
+            services.AddHealthChecksUI()
+                .AddSqlServerStorage(configuration.GetConnectionString("DefaultConnection"));
 
             return services;
         }
