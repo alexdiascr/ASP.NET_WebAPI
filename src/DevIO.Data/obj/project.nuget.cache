@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MIE0Wgm03bs9NGupggl4Ucc2poMjOF0Jp1d13zQ91IMGNy+VyoZ2LCqPsbscsOMNVjxgwpGehDHHHtgGjUj/QQ==",
+  "dgSpecHash": "B5+td5OFzpZ8gjUo2Y92FXl5eA4Ep28v7lQbWzPhuG3s5GQ9oYzTKREopxaS/TjNEvWoJafm793yyVB+Lqh7mw==",
   "success": true,
   "projectFilePath": "F:\\Projetos\\Cursos\\Desenvolvedor.IO\\ASP.NET_WebAPI\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.2\\microsoft.entityframeworkcore.design.7.0.2.nupkg.sha512",
     "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.2\\microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
     "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.2\\microsoft.entityframeworkcore.sqlserver.7.0.2.nupkg.sha512",
-    "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.2\\microsoft.entityframeworkcore.tools.7.0.2.nupkg.sha512",
+    "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.3\\microsoft.entityframeworkcore.tools.6.0.3.nupkg.sha512",
     "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\NSYS-CDS-0201\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
