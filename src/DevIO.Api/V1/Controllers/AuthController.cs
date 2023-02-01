@@ -51,6 +51,8 @@ namespace DevIO.Api.V1.Controllers
             {
                 //fazendo loggin do usuário
                 await _signInManager.SignInAsync(user, false);
+                var ageClaim = new Claim(type: "Fornecedor", value: "Adicionar");
+                await _userManager.AddClaimAsync(user, ageClaim);
                 return CustomResponse(await GerarJwt(user.Email));
             }
             foreach (var error in result.Errors)
