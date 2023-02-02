@@ -20,7 +20,6 @@ namespace DevIO.Api.Configuration
                     o.ApiKey = "7cbb4a934b2f4b998dd74d78e4b24960";
                     o.LogId = new Guid("812568fe-1183-4ba3-8c66-8258fab30eb3");
                     o.HeartbeatId = "API Fornecedores";
-
                 })
                 .AddCheck("Produtos", new SqlServerHealthCheck(configuration.GetConnectionString("DefaultConnection")))
                 .AddSqlServer(configuration.GetConnectionString("DefaultConnection"), name: "BancoSQL");
@@ -30,7 +29,6 @@ namespace DevIO.Api.Configuration
 
             return services;
         }
-
 
         public static IApplicationBuilder UseLogginConfiguration(this IApplicationBuilder app)
         {

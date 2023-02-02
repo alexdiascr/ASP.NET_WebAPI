@@ -27,6 +27,8 @@ namespace DevIO.Api.Configuration
 
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 
+
+
             return services;
         }  
     }

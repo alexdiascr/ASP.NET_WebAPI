@@ -18,16 +18,19 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddApiConfig();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-// builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerConfig();
 
 builder.Services.AddLogginConfigration(builder.Configuration);
 
+builder.Services.AddHealthChecks();
+
 builder.Services.ResolveDependencies();
 
 var app = builder.Build();
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+
 
 app.UseApiConfig(app.Environment);
 
@@ -35,6 +38,6 @@ app.UseSwaggerConfig(apiVersionDescriptionProvider);
 
 app.UseLogginConfiguration();
 
-//app.MapControllers();
+///app.MapControllers();
 
 app.Run();

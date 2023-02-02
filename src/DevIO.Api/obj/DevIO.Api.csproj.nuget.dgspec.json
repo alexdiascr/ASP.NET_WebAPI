@@ -56,23 +56,11 @@
               "target": "Package",
               "version": "[6.0.2, )"
             },
-            "AspNetCore.HealthChecks.System": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
             "AspNetCore.HealthChecks.UI": {
               "target": "Package",
               "version": "[6.0.5, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "AspNetCore.HealthChecks.UI.Core": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
               "target": "Package",
               "version": "[6.0.5, )"
             },
@@ -100,14 +88,6 @@
               "target": "Package",
               "version": "[6.0.13, )"
             },
-            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Http": {
-              "target": "Package",
-              "version": "[2.2.2, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -132,19 +112,13 @@
               "target": "Package",
               "version": "[7.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.13, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -153,6 +127,10 @@
               "version": "[6.0.13, )"
             },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.13, )"
             },
@@ -241,7 +219,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -327,7 +305,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

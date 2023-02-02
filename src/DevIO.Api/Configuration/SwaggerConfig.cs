@@ -11,8 +11,7 @@ namespace DevIO.Api.Configuration
         public static IServiceCollection AddSwaggerConfig(this IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
-            {
-                
+            {                
                 c.OperationFilter<SwaggerDefaultValues>();
 
                 //Autorização via JWT no Swagger

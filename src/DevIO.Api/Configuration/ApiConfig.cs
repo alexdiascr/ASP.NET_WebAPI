@@ -72,7 +72,7 @@ namespace DevIO.Api.Configuration
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseStaticFiles();            
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {

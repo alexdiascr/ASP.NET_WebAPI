@@ -1,12 +1,11 @@
-﻿using System.Text;
-using DevIO.Api.Data;
+﻿using DevIO.Api.Data;
 using DevIO.Api.Extensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 //using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Text;
 
 namespace DevIO.Api.Configuration
 {
