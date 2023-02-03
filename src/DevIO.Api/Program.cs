@@ -38,8 +38,6 @@ app.UseSwaggerConfig(apiVersionDescriptionProvider);
 
 app.UseLogginConfiguration();
 
-///app.MapControllers();
-///
-
+app.MapControllers();
 
 app.Run();
