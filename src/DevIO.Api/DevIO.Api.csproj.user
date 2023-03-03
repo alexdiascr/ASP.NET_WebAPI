@@ -4,9 +4,10 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>DevIO.Api</ActiveDebugProfile>
+    <ActiveDebugProfile>IIS - Prod</ActiveDebugProfile>
     <Controller_SelectedScaffolderID>MvcControllerWithContextScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/MVC/Controller</Controller_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
+    <NameOfLastUsedPublishProfile>A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\Properties\PublishProfiles\Azure - Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

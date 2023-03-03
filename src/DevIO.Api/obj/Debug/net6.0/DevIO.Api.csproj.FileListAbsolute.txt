@@ -459,9 +459,7 @@ A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
@@ -566,6 +564,10 @@ F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.
 F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\System.Memory.Data.dll
 F:\Projetos\Cursos\Desenvolvedor.IO\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
-A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\System.Memory.Data.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.Properties.Resources.resources
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.csproj.GenerateResource.cache
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\libman.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\appsettings.Production.Development.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\appsettings.Production.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\appsettings.Staging.Development.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Debug\net6.0\appsettings.Staging.json
