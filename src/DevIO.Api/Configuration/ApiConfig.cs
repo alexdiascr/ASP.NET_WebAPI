@@ -1,6 +1,4 @@
 ﻿using DevIO.Api.Extensions;
-using HealthChecks.UI.Client;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevIO.Api.Configuration
@@ -29,24 +27,25 @@ namespace DevIO.Api.Configuration
                 optios.SuppressModelStateInvalidFilter = true;
             });
 
-            services.AddCors(options =>
-            {
-                options.AddPolicy("Development",
-                                builder =>
-                                    builder
-                                    .AllowAnyOrigin()
-                                    .AllowAnyMethod()
-                                    .AllowAnyHeader());
 
-                options.AddPolicy("Production",
-                                builder =>
-                                    builder
-                                    .WithMethods("GET", "POST")
-                                    .WithOrigins("http://desenvolvedor.io")
-                                    .SetIsOriginAllowedToAllowWildcardSubdomains()
-                                    //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
-                                    .AllowAnyHeader());
-            });
+            //services.AddCors(options =>
+            //{
+            //    options.AddPolicy("Development",
+            //                    builder =>
+            //                        builder
+            //                        .AllowAnyOrigin()
+            //                        .AllowAnyMethod()
+            //                        .AllowAnyHeader());
+
+            //    options.AddPolicy("Production",
+            //                    builder =>
+            //                        builder
+            //                        .WithMethods("GET", "POST")
+            //                        .WithOrigins("http://desenvolvedor.io")
+            //                        .SetIsOriginAllowedToAllowWildcardSubdomains()
+            //                        //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
+            //                        .AllowAnyHeader());
+            //});
         }
 
         public static IApplicationBuilder UseApiConfig(this IApplicationBuilder app, IWebHostEnvironment env)
@@ -54,12 +53,12 @@ namespace DevIO.Api.Configuration
 
             if (env.IsDevelopment())
             {
-                app.UseCors("Development");
+                //app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                app.UseCors("Production");// Usar apenas nas demos => Configuração Ideal: Production
+               //// app.UseCors("Production");// Usar apenas nas demos => Configuração Ideal: Production
                 app.UseHsts();
             }
 

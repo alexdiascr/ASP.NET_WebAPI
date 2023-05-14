@@ -141,3 +141,7 @@ A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\DevIO.Api.pdb
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\DevIO.Api.genruntimeconfig.cache
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\ref\DevIO.Api.dll
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Release\net6.0\appsettings.Production.Development.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Release\net6.0\appsettings.Production.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Release\net6.0\appsettings.Staging.Development.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\bin\Release\net6.0\appsettings.Staging.json

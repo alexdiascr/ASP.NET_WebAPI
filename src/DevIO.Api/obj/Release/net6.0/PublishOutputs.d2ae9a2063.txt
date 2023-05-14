@@ -1,6 +1,10 @@
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\DevIO.Api.exe
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\appsettings.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\appsettings.Production.Development.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\appsettings.Production.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\appsettings.Staging.Development.json
+A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\appsettings.Staging.json
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\libman.json
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\DevIO.Api.dll
 A:\Programacao\Desenvolvedor.io\ASP.NET\WebAPI\ASP.NET_WebAPI\src\DevIO.Api\obj\Release\net6.0\PubTmp\Out\DevIO.Api.runtimeconfig.json

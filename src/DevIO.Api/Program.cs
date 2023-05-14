@@ -4,11 +4,22 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Adicionando suporte a Diversos arquivos de configuração por ambiente.
 builder.Configuration
     .SetBasePath(builder.Environment.ContentRootPath)
     .AddJsonFile("appsettings.json", true, true)
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
     .AddEnvironmentVariables();
+
+
+// Adicionando suporte a User Secrets
+if (builder.Environment.IsProduction())
+{
+    builder.Configuration.AddUserSecrets<Program>();
+}
+
+// *** Configurando serviços no container ***
 
 // ConfigureServices
 builder.Services.AddDbContext<MeuDbContext>(optios =>
@@ -16,6 +27,7 @@ builder.Services.AddDbContext<MeuDbContext>(optios =>
         optios.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
     });
 
+// Extension Method de configuração do Identity
 builder.Services.AddIdentityConfig(builder.Configuration);
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -27,10 +39,11 @@ builder.Services.AddApiConfig();
 
 builder.Services.AddSwaggerConfig();
 
-builder.Services.AddLogginConfigration(builder.Configuration);
+//builder.Services.AddLogginConfigration(builder.Configuration);
 
-builder.Services.AddHealthChecks();
+//builder.Services.AddHealthChecks();
 
+// Extension Method de resolução de DI
 builder.Services.ResolveDependencies();
 
 var app = builder.Build();
@@ -41,7 +54,7 @@ app.UseApiConfig(app.Environment);
 
 app.UseSwaggerConfig(apiVersionDescriptionProvider);
 
-app.UseLogginConfiguration();
+//app.UseLogginConfiguration();
 
 app.MapControllers();
 

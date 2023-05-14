@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
 	<Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>faca59b1-a479-47a2-b2bd-798d716cc6fa</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -57,5 +58,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1development_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

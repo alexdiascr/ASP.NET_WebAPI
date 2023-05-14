@@ -38,11 +38,6 @@ namespace DevIO.Api.Extensions
         {
             return _accessor.HttpContext.User.Claims;
         }
-
-        IEnumerable<Claim> IUser.GetClaimsIdentity()
-        {
-            throw new NotImplementedException();
-        }
     }
 
     public static class ClaimsPrincipalExtensions
